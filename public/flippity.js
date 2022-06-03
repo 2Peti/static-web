@@ -15,6 +15,8 @@ for (let nm = 0; nm < data.length; nm++) {
   }
 } 
 
+showLocks()
+document.getElementById('startScreen').style.display = "none"
 document.getElementById('time').innerHTML = formatTime()
 document.getElementById('doneScreen').style.display = "block"
 if (email != "") {
