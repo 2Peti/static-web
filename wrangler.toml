@@ -1,7 +1,0 @@
-zone_id = "b60385a829d7b6ec03a1e53ce1c75d5d"
-route = "https://static.cochces.eu/*"
-name = "static-web"
-type = "webpack"
-workers_dev = true
-site = { bucket = "./public" }
-compatibility_date = "2022-01-21"
